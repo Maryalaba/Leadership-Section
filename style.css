@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mulish, sans-serif;
+}
+body{
+    background-color: #fff;
+}
+section{
+    padding: 20px 10px;
+}
+h1{
+    font-size: 2rem;
+}
+.big-container{
+    margin: 10px auto;
+    padding: 20px 50px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:#fafbf7; 
+}
+.small-container{
+    padding: 10px 20px;
+    width: 33.33%
+}
+.content{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px 20px;
+    min-width: 300px;
+    min-height: 350px;
+    width: 100%;
+}
+.content h2{
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.content p{
+    color: darkgrey;
+    line-height: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.content ul{
+    margin: 1.5rem 40px 5px;
+}
+.content ul li{
+    color: #2c3134;
+    font-size: 0.9rem;
+    margin-bottom: 1.3rem;
+}
+.linkedln{
+    position: relative;
+}
+.linkedln a span:hover{
+    color: green;
+}
+.linkedln a span{
+    left: 50px;
+    top: 5px;
+    position: absolute;
+}
+.profile-img{
+    margin-left: 30px;
+}    
+a{
+    text-decoration: none;
+}
